@@ -1,0 +1,58 @@
+:root{
+  --dookie: blue;
+  --imagecontainerheight: 251px;
+  --imagecontainerwidth: 251px;
+  --gridcolor: #ccc;
+}
+
+h1 {
+  background: var(--dookie);
+}
+
+/*
+class: .blah
+id:    #blah
+*/
+
+/*//////////////////////////////////////////
+/////////IMAGE CONVERSION STUFF
+//////////////////////////////////////////*/
+
+#srcimgbox {
+  /*background-image: url("../../APP/IMAGES/OpenSourceLogo.png");*/
+  background-color: blue;
+  height: var(--imagecontainerheight);
+  width: var(--imagecontainerwidth);
+  /*border: 5px black dashed;*/
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.imageconvertersector {
+  float: left;
+  height: var(--imagecontainerheight);
+  width: var(--imagecontainerwidth);
+  background-color: grey;
+  border: solid 1px black;
+  position:relative;
+}
+
+#imageconvertercontrols {
+  width: 250px;
+  background-color:grey;
+}
+
+#gridsvg {
+  height: var(--imagecontainerheight);
+  width: var(--imagecontainerwidth);
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.grid {
+    stroke: black;
+    stroke-opacity:0.5;
+    stroke-width: 0.5;
+}
